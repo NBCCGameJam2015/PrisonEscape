@@ -1,0 +1,29 @@
+﻿Build started 11/4/2014 9:45:26 AM.
+     1>Project "C:\Blit3DLib\Blit3DLib\Blit3DLib.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"C:\Blit3D\libx64\120.pdb" /Gd /TP /errorReport:prompt BFont.cpp Blit3D.cpp RenderBuffer.cpp Sprite.cpp
+         BFont.cpp
+         Generating Code...
+         Compiling...
+         Sprite.cpp
+         RenderBuffer.cpp
+         Blit3D.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Blit3D\libx64\blit3d64_debug.lib" "FreeImage-x64.lib" glew32.lib glfw3.lib /NOLOGO /MACHINE:X64 x64\Debug\BFont.obj
+         x64\Debug\Blit3D.obj
+         x64\Debug\glslprogram.obj
+         x64\Debug\glutils.obj
+         x64\Debug\Logger.obj
+         x64\Debug\RenderBuffer.obj
+         x64\Debug\ShaderManager.obj
+         x64\Debug\Sprite.obj
+         x64\Debug\TextureManager.obj
+     1>glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in FreeImage-x64.lib(freeimage-x64.dll); second definition ignored
+     1>glew32.lib(glew32.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Blit3DLib.vcxproj -> C:\Blit3D\libx64\blit3d64_debug.lib
+     1>Done Building Project "C:\Blit3DLib\Blit3DLib\Blit3DLib.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.08

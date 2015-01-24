@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Graphical">
+      <UniqueIdentifier>{fa8e695c-648c-4904-8b14-c2b0a95efcef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{b247bc4d-6af4-441d-a08a-426b2e019ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{e7379efa-93e8-4e95-ba97-e6cd9a2c47d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphical">
+      <UniqueIdentifier>{3dc76234-bc7b-4702-98fc-4081925f293d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{422970f3-43f0-4c6c-ac54-13a4b75efefe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{74586a65-6918-4488-b8d1-247324e4b047}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="engine_funcs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="2d_graphic.cpp">
+      <Filter>Source Files\Graphical</Filter>
+    </ClCompile>
+    <ClCompile Include="ffont.cpp">
+      <Filter>Source Files\Graphical</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Source Files\Graphical</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Source Files\Graphical</Filter>
+    </ClCompile>
+    <ClCompile Include="vbo_data.cpp">
+      <Filter>Source Files\Graphical</Filter>
+    </ClCompile>
+    <ClCompile Include="2d_graphic_mgr.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="input_mgr.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh_mgr.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="texture_mgr.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="util_func.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="2d_graphic.h">
+      <Filter>Header Files\Graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="ffont.h">
+      <Filter>Header Files\Graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Header Files\Graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Header Files\Graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_nodes.h">
+      <Filter>Header Files\Graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="vbo_data.h">
+      <Filter>Header Files\Graphical</Filter>
+    </ClInclude>
+    <ClInclude Include="2d_graphic_mgr.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_mgr.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="file_mgr.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_mgr.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="input_mgr.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh_mgr.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="texture_mgr.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="boolstuff.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="util_func.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
