@@ -48,8 +48,8 @@ FFont::FFont()
 	data_file.open( "fontMetrics.dat", std::ios::in | std::ios::binary );
 	if ( !data_file.is_open() )
 	{
-		oLog( Level::Severe ) << "Error while loading widths data file: 'fontMetrics.dat' for FFont";
-		assert( data_file.is_open() );
+		//oLog( Level::Severe ) << "Error while loading widths data file: 'fontMetrics.dat' for FFont";
+		//assert( data_file.is_open() );
 	}
 
 	short buffer[256]; //memory to read into
