@@ -77,18 +77,6 @@ inline void game::Init()
 
 	Init_GFX();
 	Init_Input();
-
-	grid = graphic_mgr.Get_Graphic( "grid.png" );
-	grid->dest_x = 0;
-	grid->dest_y = 0;
-	correct = graphic_mgr.Get_Graphic( "correct.png" );
-	correct->dest_x = 0;
-	correct->dest_y = 0;
-	correct->alpha = 0.5f;
-	incorrect = graphic_mgr.Get_Graphic( "incorrect.png" );
-	incorrect->dest_x = 0;
-	incorrect->dest_y = 0;
-	incorrect->alpha = 0.5f;
 }
 
 void game::Init_GFX()

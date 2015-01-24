@@ -32,10 +32,6 @@ private:
 	int player_x = 1;
 	int player_y = 1;
 
-	graphic* grid = nullptr;
-	graphic* incorrect = nullptr;
-	graphic* correct = nullptr;
-
 protected:
 	void Init_GFX();
 	void Init_Input();

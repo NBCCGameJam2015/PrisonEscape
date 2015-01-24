@@ -1,6 +1,6 @@
-[2015-01-23 22:06:34][Info]	Context reports FSAA is available with 8samples
-[2015-01-23 22:06:34][Info]	Requesting FSAA with 8samples
-[2015-01-23 22:06:34][Info]	1 monitor detected.
-[2015-01-23 22:06:35][Info]	Renderer: Quadro K2000/PCIe/SSE2
-[2015-01-23 22:06:35][Info]	OpenGL version supported: 4.4.0
-[2015-01-23 22:08:01][Info]	Terminated Blit3D
+[2015-01-23 22:21:35][Info]	Context reports FSAA is available with 8samples
+[2015-01-23 22:21:35][Info]	Requesting FSAA with 8samples
+[2015-01-23 22:21:35][Info]	1 monitor detected.
+[2015-01-23 22:21:36][Info]	Renderer: Quadro K2000/PCIe/SSE2
+[2015-01-23 22:21:36][Info]	OpenGL version supported: 4.4.0
+[2015-01-23 22:21:39][Info]	Terminated Blit3D

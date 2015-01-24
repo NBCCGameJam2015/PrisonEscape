@@ -1,8 +1,20 @@
-﻿Build started 1/23/2015 9:57:22 PM.
+﻿Build started 1/23/2015 10:21:26 PM.
      1>Project "C:\Users\1039652\Desktop\PrisonEscape\PrisonEscape\PrisonEscape\PrisonEscape.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W0 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ffont.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W0 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 2d_graphic.cpp 2d_graphic_mgr.cpp engine_funcs.cpp ffont.cpp gui.cpp main.cpp mesh.cpp mesh_mgr.cpp vbo_data.cpp
+         engine_funcs.cpp
+         Generating Code...
+         Compiling...
+         vbo_data.cpp
+         mesh.cpp
          ffont.cpp
+         2d_graphic_mgr.cpp
+         2d_graphic.cpp
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         mesh_mgr.cpp
+         main.cpp
+         gui.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\1039652\Desktop\PrisonEscape\PrisonEscape\Debug\PrisonEscape.exe" /INCREMENTAL /NOLOGO blit3d_debug.lib opengl32.lib glfw3.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\1039652\Desktop\PrisonEscape\PrisonEscape\Debug\PrisonEscape.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\1039652\Desktop\PrisonEscape\PrisonEscape\Debug\PrisonEscape.lib" /MACHINE:X86 Debug\2d_graphic.obj
          Debug\2d_graphic_mgr.obj
@@ -23,4 +35,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.98
+Time Elapsed 00:00:09.14
