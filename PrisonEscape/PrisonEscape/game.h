@@ -14,7 +14,6 @@
 #include "2d_graphic_mgr.h"
 #include "mesh_mgr.h"
 #include "scene_nodes.h"
-#include "Sudoku.h"
 
 
 class game
@@ -33,8 +32,6 @@ private:
 	int player_x = 1;
 	int player_y = 1;
 
-	Sudoku puzzle;
-
 	graphic* grid = nullptr;
 	graphic* incorrect = nullptr;
 	graphic* correct = nullptr;
@@ -44,10 +41,6 @@ protected:
 	void Init_Input();
 
 public:
-	void LoadFile1();
-	void LoadFile2();
-	void LoadFile3();
-	void LoadFile4();
 	void Init();
 	void DeInit();
 	void Update( double& seconds );

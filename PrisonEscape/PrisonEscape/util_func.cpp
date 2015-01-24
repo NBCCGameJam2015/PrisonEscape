@@ -4,7 +4,7 @@
 #include "util_func.h"
 #include "file_mgr.h"
 
-
+/*
 std::wstring& get_exec_path()
 {
 	static wchar_t buffer[MAX_PATH];
@@ -16,7 +16,7 @@ std::wstring& get_exec_path()
 	}
 	static std::wstring execution_path( buffer );
 	return execution_path;
-}
+}*/
 
 inline std::string coords_ToString(std::pair<int, int> position)
 {

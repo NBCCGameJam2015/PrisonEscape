@@ -1,7 +1,6 @@
 #ifndef _FONT_HANDLER_H_
 #define _FONT_HANDLER_H_
 
-#include <iof_chunk.h>
 #include <blit3d/Blit3D.h>
 #include <map>
 #include "vbo_data.h"

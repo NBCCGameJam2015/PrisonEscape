@@ -62,26 +62,6 @@ void DoCursor( double x, double y )
 	get_game_engine().DoCursor( x, y );
 }
 
-void game::LoadFile1()
-{
-	puzzle.Load_File( "sudoku_puzzle1.txt" );
-}
-
-void game::LoadFile2()
-{
-	puzzle.Load_File( "sudoku_puzzle2.txt" );
-}
-
-void game::LoadFile3()
-{
-	puzzle.Load_File( "sudoku_puzzle3.txt" );
-}
-
-void game::LoadFile4()
-{
-	puzzle.Load_File( "sudoku_puzzle4.txt" );
-}
-
 inline void game::Init()
 {
 	dbg::FileLog_Mgr::RegisterNewLog( L"Memory Issues.log" );
@@ -181,11 +161,6 @@ void game::Init_GFX()
 
 void game::Init_Input()
 {
-	KeyInput_Mgr.Register_Action( GLFW_KEY_1, std::bind( &game::LoadFile1, this ) );
-	KeyInput_Mgr.Register_Action( GLFW_KEY_2, std::bind( &game::LoadFile2, this ) );
-	KeyInput_Mgr.Register_Action( GLFW_KEY_3, std::bind( &game::LoadFile3, this ) );
-	KeyInput_Mgr.Register_Action( GLFW_KEY_4, std::bind( &game::LoadFile4, this ) );
-
 	KeyInput_Mgr.Start();
 }
 
@@ -212,16 +187,6 @@ inline void game::Draw( void )
 	View_Mutex.unlock();
 
 	get_blit3d()->SetMode( Blit3DRenderMode::BLIT2D, shader_2d );
-	grid->Draw();
-	if ( puzzle.perform_validation() )
-	{
-		correct->Draw();
-	}
-	else
-	{
-		incorrect->Draw();
-	}
-	puzzle.Draw();
 }
 
 inline void game::DoInput( int& key, int& scancode, int& action, int& mods )
