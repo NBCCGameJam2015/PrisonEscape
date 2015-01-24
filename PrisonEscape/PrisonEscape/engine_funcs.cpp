@@ -168,12 +168,6 @@ inline void game::Draw( void )
 	glClearColor( 0.8f, 0.6f, 0.7f, 0.0f );
 	glClear( GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT );
 
-	get_blit3d()->SetMode( Blit3DRenderMode::BLIT3D );
-	this->shader_3d->use();
-	View_Mutex.lock();
-	this->shader_3d->setUniform( "viewMatrix", View_Matrix );
-	View_Mutex.unlock();
-
 	get_blit3d()->SetMode( Blit3DRenderMode::BLIT2D, shader_2d );
 }
 

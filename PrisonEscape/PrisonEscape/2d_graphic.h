@@ -33,4 +33,10 @@ public:
 	void Draw();
 };
 
+class xSprite : public graphic
+{
+public:
+	xSprite( GLSLProgram* shader, render_data info ) : graphic( shader, info ) { }
+};
+
 #endif

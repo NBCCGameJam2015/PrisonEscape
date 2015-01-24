@@ -16,6 +16,7 @@ private:
 
 protected:
 	void Load_Graphic( std::string filename );
+	void Load_Sprite( std::string filename, std::string file_specs );
 
 public:
 	Graphic_Manager();
@@ -32,6 +33,7 @@ public:
 	void set_shader( GLSLProgram* shader );
 	void Load_All();
 	graphic* Get_Graphic( std::string filename );
+	xSprite* Get_Sprite( std::string filename );
 };
 
 #endif
